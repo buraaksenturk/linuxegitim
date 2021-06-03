@@ -1,0 +1,11 @@
+Anlık olarak çalışan şeyleri görmeye süreç denir
+
+ps -> o anda ne kullandığımızı görüyoruz
+ps burak -> burak kullanıcısı ile ilgili kullanılan araçları verir
+ps burak çıktısını düzenli hale sokmak için ise "pstree burak" kullanılır
+pstree -p burak -> çalışan işlemlerin PID numarasını gösterir. PID numarsı ile işlemi sonlandırabiliriz
+
+kill PID_numarasi -> PID numarası verilen uygulamayı sonlandırmaya yarar
+kill -9 PID_numarasi -> Kapanmayan işlemi zorla sonlandırmak için kullanılır
+
+killall calisan_uygulama_adi -> Uygulama adı ile işlemi sonlandırmaya yarar

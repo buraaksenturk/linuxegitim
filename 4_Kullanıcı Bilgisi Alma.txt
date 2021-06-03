@@ -1,0 +1,8 @@
+etc altındaki passwd dosyası kullanıcıya dair bilgileri verir.
+Örn: cat /etc/passwd
+
+w -> aktif olan kullanıcı ve bunların kullandığı programları, saatlerini gösterir.
+
+whoami -> erişilen kullanıcının hangi yetki ile çalıştığını gösterir.
+
+uptime -> Sistemin ne kadar süredir aktif olduğunu gösterir

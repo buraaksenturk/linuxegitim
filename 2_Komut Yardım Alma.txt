@@ -1,0 +1,12 @@
+Whatis aracı bilgi almak istediğimiz araç hakkında bizlere bilgi verir.
+Örn: whatis ls
+
+apropos bir kaç kelimesini bildiğimiz araçları bize listeler.
+Örn: apropos ls
+
+--help bir aracın kullanımı ve diğer parametreleri hakkında bilgi verir.
+Örn: ls --help
+
+man tam kapsamlı bir araçtır. Adını verdiğimiz komutun kullanım kılavuzu gibi düşünülebilir.
+Örn: man ls
+

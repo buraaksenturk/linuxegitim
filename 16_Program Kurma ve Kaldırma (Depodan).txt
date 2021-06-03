@@ -1,0 +1,6 @@
+Google üzerinde kali repo (sizin işletim sisteminiz hangisi ise kali yerine yazabilirsiniz) yazarak çıkan seçeneklerden depo bilgilerine ulaşıyoruz.
+
+apt update -> alınan bilgilerin okunmasını sağlar
+
+apt list -> depo içindeki araçları listeler
+ilk değer kurmak için gerekli olan değerdir. "apt install ilk_deger" yazarsanız komut satırına otomatik olarak inmeye başlayacaktır

@@ -1,0 +1,26 @@
+mousepad bilgi.txt -> mousepad bilgi.txt adında bir dosya oluşturmaya yarar
+
+
+-           rw-           rw-     r--            1      wezirmes        wezirmes          580      May 31 07:54        '11_Dosya ve Dizin İzinleri.txt'
+dizin    Kullanıcı       rootta   bilgisayardaki        kullanıcı   kullanıcının grubu            oluşturulma tarihi                dosya adı
+ise     ilgilendirir     bulunan  diğer kullanıcılar
+başında                  diğer
+d olur                  kullanıcılar
+yoksa dosyadır
+
+
+r = okuma
+w = yazma
+x = çalıştırma
+d = dizin
+
+dosyanın sahibi                         dosya sahibiyle aynı gruptakiler                        Diğer kullanıcılar
+    r = 4                                           r = 4                                               r = 4
+    w = 2                                           w = 2                                               w = 2
+    x = 1                                           x = 1                                               x = 1
+
+
+
+chmod -> Dosya izinleri değiştirmeye yarar. Yukarıda verilenlerden hangisini vermek istiyorsak yanındaki rakamları toplayarak yazıyoruz
+ÖRN: chmod 754 '11_Dosya ve Dizin İzinleri.txt'
+Çıktı: -rwxr-xr-- -> Şeklindedir

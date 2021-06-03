@@ -1,0 +1,3 @@
+mkdir -> dizin oluşturmaya yarayan bir komuttur
+
+rm -> Komutu silme işlemine yarar. Fakat dizin silerken "rm -rf dosya_adi" şeklinde silinir.

@@ -1,0 +1,6 @@
+Kaynak koddan derlenip kurma
+- https://github.com/tsl0922/ttyd#install-on-linux -> adresinde yer alan programı kaynak koddan derleyerek kurmak için verieln bilgileri komut satırına sadece kopyala/yapıştır yaparaktan bu işlemi tamalayabilirsiniz.
+
+
+Kaldırma:
+- apt remove kaldırılacak dosya_Adi -> uygulamayı kaldırma işlemidir

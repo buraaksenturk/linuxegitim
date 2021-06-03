@@ -1,0 +1,11 @@
+Kernel -> Çekirdektir. Donanım ve yazılımların birbiri arasındaki iletişimi sağlar.
+Komut satırı -> Kullanıcıdan gelen komutları yorumlayarak Kernel'a iletir. Kernel'da donanımlarla cevap verir.
+
+Komut satırı alternatiflerini görmek için -> cat /etc/shells
+Kullanıcının hangi komut satırı programını öğrenmek için -> echo $SHELL
+Farklı bir komut satırı programına geçmek için onun uzantısını yapıştırıyoruz.
+
+Ortam değişkenleri -> Programların çalıştırılabilir dosyaların koyulduğu dosyalardır
+- /bin/sh ile sh yazmak aynı işlemdir
+Ortam değişkenlerini görüntülemek için -> echo $PATH
+Yeşiller çalıştırılabilir programlardır, maviler ise dosyalardır.

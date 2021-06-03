@@ -1,0 +1,26 @@
+Komut satırı üzerinden metinleri düzenleyebileceğimiz uygulamalar:
+
+VİM
+- vim burak.txt -> burak.txt adında bir dosya açar.
+- "i"ye bastıktan sonra ekleme yapabiliriz. 
+- Yazılan verileri kaydetmek için önce ESC tuşuna basıyoruz. Daha sonra ":wq" yazıp ENTER tuşuna basıyoruz
+- Kayıt etmeden çıkmak için ise ":q!" yazıp ENTER tuşuna basıyoruz.
+
+
+NANO
+- nano burak.txt -> burak.txt dosyasını açıyoruz
+- Direkt yazmaya başlıyoruz.
+- Çıkış yaparken CTRL+X tuşlarına basıyoruz. DEğişiklikleri kaydetme kısmında kayıt etmek istiyorsak Y tuşuna basıyoruz. (Farklı bir isimle kayıt etmek istersek adını CTRL+X kombinasyonundan sonra yazmamız yeterli olacaktır.)
+
+
+Komut satırından harici olarak çalışan uygulamalar:
+LEAFPAD
+- Kurulu olarak gelmeyebilir kurulum için terminale "apt install leafpad" yazmanız yeterlidir.
+- leafpad burak1.txt -> burak1.txt şeklinde bir dosya açar ve buradan istediğğimiz gibi ekleme çıkarma yapabiliriz. 
+
+MOUSEPAD
+- mousepad burak1.txt -> burak1.txt dosyasını açar.
+
+GEDİT
+- geditte kurulu olarak gelmeyebilir. Kurmak için "apt install gedit" dediğimizde kurmuş oluruz.
+- gedit burak1.txt -> burak1.txt dosyasını açar.

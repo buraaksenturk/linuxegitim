@@ -1,0 +1,18 @@
+tar -> Dosya ve klasörleri sıkıştırmadan bir arşiv haline getiren araçtır.
+Örn: tar -cf burak.tar ./* -> bulunduğumuz dizindeki bütün dosyaları arşivler burak.tar adındaki bir dosyaya
+tar -xf burak.tar -> arşivlenen dosyaları çıkarmak içindir.
+tar -zcf burak.tar.gz ./* -> BUlunduğumuz dizindeki bütün ehr şeyi sıkıştırılmış şekilde arşivler
+tar -zxf burak.tar.gz -> Sıkıştırarak arşivlenmiş dosyayı çözer
+
+gzip -> klasörlere değil sadece dosyalara uygulanır
+gzip --help -> Yardım menüsüdür. Buradan bakarak yapabilirsin
+gzip -9 burak.txt -> dosyayı sıkıştırma işlemidir
+gunzip burak.txt.gz -> Sıkıştırılmış dosyayaı çözer
+
+bzip2 -> sıkıştırma işlemi yapar dosyalara yönelik. Sıkıştırma performansı farkı vardır
+bzip2 burak.txt -> dosyayı arşivler
+bunzip burak.txt.bz2 -> çıkarmaya yarar
+
+zip -> hem dosya hemde klasörü arşivlemeye yarar
+zip -r burak.zip ./* -> Bulunulan dizindeki her şeyi arşivler
+unzip burak.zip -> Dışarı çıkarmaya yarar

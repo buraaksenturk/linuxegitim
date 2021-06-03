@@ -1,0 +1,10 @@
+pwd -> İçinde bulunduğumuz dizini gösterir. 
+
+ls -> Dosya/Dizin içindekileri gösterir
+ls -l -> Alt alta listeleme yapar
+ls -a -> gizli dosyaları gösterir
+
+cd -> Dizinler arası geçiş yapmaya yarar
+
+locate -> Arama yaparken bir kaç karakter yazarsak içinde verdiğimiz isim geçen her şeyi getirir.
+Örn: locate apt

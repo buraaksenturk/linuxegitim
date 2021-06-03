@@ -1,0 +1,25 @@
+ifconfig -> Bilgisayarımıza atanmış olan lokal IP adresimizi gösterir.
+
+route -n -> Modemin IP adresini gösterir.
+
+service network-manager stop -> İnternet bağlantısını keser.
+service network-manager start -> İnternet bağlantısının gelmesini sağlar.
+
+leafpad /etc/network/interfaces (Siz istediğiniz metin düzenleme aracını kullanabilirsiniz.)
+- auto lo
+- iface lo inet loopback
+Bu iki değerin başına # işareti koyarak yorum satırı haline getiriyoruz
+
+ifconfig kısmında iface eth0 (eğer uzaktan bağlıysanız daha wlan olarak gözükecektir)
+
+iface eth0 inet static
+        address 192.168.1.120 (adresi istediğiniz gibi girebilirsiniz)
+        netmask 255.255.255.0
+        broadcast 192.168.1.255
+        gateway 192.168.1.1
+
+! Bunu yaptıktan sonra sistemi yeniden başlatmakta fayda var.
+! netdiscover bize ağdaki diğer cihazların bilgisini verir
+
+PC tekrar başladığında internet bağlantısı bulunmayabilir. Bunun sebebi eth0 ağ kartının ayağa kaldırılmasını istemesidir.
+Ayağa kaldırmak için terminale "ifup eth0" yazmamız gerekmektedir.

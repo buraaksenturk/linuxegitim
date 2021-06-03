@@ -1,0 +1,10 @@
+cp -> Kopyalama işlemini gerçekleştirir.
+örn: cp aaa.txt /root/Desktop
+örn: cp /root/aaa.txt ./ -> BUlunduğumuz konumdan farklı bir dosyadan oraya dosya taşımaya yarar.
+
+cp -r -> Dizin kopyalama işlemidir.
+
+mv -> taşıma komutudur. Dizinlerde aynı şekilde taşınır.
+
+rm -> silme işlemidir
+rm -rf -> dizin silerken kullanılır

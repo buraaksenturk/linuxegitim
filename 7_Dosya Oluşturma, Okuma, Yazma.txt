@@ -1,0 +1,10 @@
+touch -> Boş bir dosya oluşturmaya yarar.
+
+echo -> Oluşturulan dosyanın içine yazı eklemeye yarar.
+Örn: echo içerik burası > aaa.txt
+
+more -> dosya okumayı sağlar. -> boşluk tuşu ile ilerler.
+less -> uzun satırlı olan dosyaları okumaya yarar. -> yön tuşları ile ilerleme yapılır
+
+grep -> bir dosya içinde bir kelime arıyorsak bu komut kullanılır.
+grep wez /etc/passwd

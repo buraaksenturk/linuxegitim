@@ -1,0 +1,8 @@
+hostname -> bilgisayarımızın adını yazdırır.
+
+lsb_release -> dağıtımın özel bilgilerini verir.
+
+/etc/issue -> Kullanılan dağıtımın ad bilgisini verir. Not defteri ile açmak gerekir veya da cat Kullanılabilir.
+
+uname -> Kullanmış olduğumuzun dağıtımın çekirdek bilgisini verir
+

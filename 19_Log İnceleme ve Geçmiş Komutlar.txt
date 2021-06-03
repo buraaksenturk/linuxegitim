@@ -1,0 +1,8 @@
+Loglar bilgisayar üzerinde gerçekleştirilen şeylerin belli bir formatta kayıt edilmesidir.
+
+cd /var/log -> logların tutulduğu  dizine gider.
+cat auth.log -> Kullanıcının ne zaman giriş yaptığını gösterir.
+cat auth.log | grep burak -> Burak adlı kullanıcıya ait olan giriş işlemlerini gösterir.
+
+user.log -> Kullanıcıların süreçleri ile ilgili bilgiler vardır.
+

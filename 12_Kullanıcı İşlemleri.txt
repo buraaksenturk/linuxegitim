@@ -1,0 +1,17 @@
+cat -> Dosya iiçine yazılanları terminale basmaya yarar
+Örn: cat /etc/passwd -> Kullanıcı adı, Kullanıcının nerede olduğu ve hangi terminali kullandığı bilgisini verir
+cat /etc/shadow -> İçerisinde kullanıcı adı ve şifresi hashlenmiş bir şekilde bulunur.
+
+passwd -> Kullanıcının parolasını değiştirmeye yarar
+passwd farkli_kullanici_adi -> Başka bir kullanıcının parolasını değiştirmeye yarar
+
+adduser -> Yeni bir kullanıcı oluşturmaya yarar
+
+chfn -> ilgili kullanıcının bilgilerini düzenlemeye yarar
+
+chage -l -> kullanıcıya ait bilgileri görüntülemeye yarar
+
+usermod -L burak -> burak kullanıcısını pasif hale getirir
+usermod -U burak -> pasif halden çıkartır
+
+su -> başka bir kullanıcıya geçmemizi sağlar

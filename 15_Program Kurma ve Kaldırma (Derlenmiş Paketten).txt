@@ -1,0 +1,21 @@
+Hazırlanmış paket kurulumlarında: 
+
+Operating System  |  Format   |   Araçlar
+Debian                deb         apt, apt-cache, apt-get, dpkg
+Ubuntu                deb         apt, apt-cache, apt-get, dpkg
+CentOS                rpm         yum
+Fedora                rpm         dnf
+FreeBSD            Ports, txz     make, pkg
+
+Kurmak için: 
+- dpkg -i kurulacak_olan_uygulama -> Kurulması istenen uygulamayı kurar
+- apt install -f -> eksik paket varsa bunları yükler
+
+
+- dpkg -l -> Kurulmuş olan paketleri listeler
+- dpkg -l | grep opera -> dpkg -l ile karşımıza çıkan listeden operayı ayıklamamızı sağlıyor.
+NOT : "|" işareti aynı komutta birden fazla fakrlı aracı kullanmamızı sağlar
+- apt remove kaldırılacak dosya_Adi -> uygulamayı kaldırma işlemidir
+
+
+

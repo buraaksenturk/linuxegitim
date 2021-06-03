@@ -1,0 +1,9 @@
+top -> HAngi kullanıcının hangi uygulamayı kullandığını gösterir. Win'deki görev yöneticisi bilgisidir.
+
+fdisk -l -> Sistemdeki diskleri görüntüler.
+
+df -> varolan disklerin doluluk oranını gösterir.
+
+cal -> tarihle ilgili bilgileri verir.
+
+date -> şu anda içinde bulunduğumuz tarih ve saati verir.
